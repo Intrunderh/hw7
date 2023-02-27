@@ -6,4 +6,4 @@ def print_operation_table(operation, num_rows = 6, num_columns = 6):
             nums.append(num)
         print('\t\t'.join([str(x) for x in nums]))
 
-print(print_operation_table(lambda x,y: x * y, 2, 3))
+print(print_operation_table(lambda x,y: x * y, 2, 3)) 
